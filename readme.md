@@ -1,14 +1,37 @@
-Step to run application:
-Step 1:	Create the copy of the project.
-Step 2: Open command prompt and change your current path 
-to folder where you can find 'app.py' file.
-Step 3: Create environment by command given below-
-conda create -name <environment name>
-Step 4: Activate environment by command as follows-
-conda activate <environment name>
-Step 5: Use command below to install required dependencies-
-python -m pip install -r requirements.txt
-Step 6: Run application by command;
-python app.py
-You will get url copy it and paste in browser.
-Step 7: You have sample_data folder where you can get images to test.
+# 🧾 PAN Card Tampering Detection System using Machine Learning
+
+This project is a **PAN Card Tampering Detection System** developed using **Python** and **Machine Learning** techniques. It can detect whether a given image of a PAN card has been tampered with or not. This helps in preventing document forgery and identity fraud by validating the authenticity of digital PAN card copies.
+
+---
+
+## 🚀 Features
+
+- 📷 Upload PAN card image and detect tampering
+- 🧠 Trained ML/DL model to classify original vs tampered cards
+- 🖼️ Image processing for better feature extraction
+- 🔍 Real-time feedback on prediction results
+- 🗂️ Sample images included for testing
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language**: Python 3
+- **ML/DL Libraries**: TensorFlow / Keras or scikit-learn
+- **Image Processing**: OpenCV, PIL
+- **Web Interface**: Streamlit or Flask (depending on implementation)
+- **IDE Recommended**: VS Code / Jupyter Notebook
+
+---
+
+## 📂 Project Structure
+
+pan_tampering_detection/
+│
+├── app.py # Main application entry point
+├── model/ # Trained model file(s)
+│ └── pan_model.h5
+├── utils/ # Helper functions
+├── sample_data/ # Sample PAN images (original & tampered)
+├── requirements.txt # All required packages
+└── README.md
